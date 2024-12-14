@@ -109,6 +109,44 @@ body {
   font-weight: 600;
 }
 
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+#auth-name {
+  margin: 0 0 10px 0;
+  border: 1px #000000 solid;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#auth-pass {
+  margin: 0 0 10px 0;
+  border: 1px #000000 solid;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#auth-email {
+  margin: 0 0 10px 0;
+  border: 1px #000000 solid;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#auth-button {
+  margin: 0 0 10px 0;
+  border: 1px #000000 solid;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+  background-color: #666ca3;
+}
+
 .block-field {
   display: flex;
   flex-direction: column;
@@ -184,3 +222,6 @@ body {
   top: 50%;
   left: 50%;
 } */
+
+
+

@@ -1,6 +1,10 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
 import { getDatabase, ref, onValue, push, remove } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
+// import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js"
+
+// const auth = getAuth();
+
 //ссылка на нашу БД
 
 const appSettings = {
@@ -115,4 +119,40 @@ function appendSalaryTosalaryListEl(salaryValue, SalaryID) {
 //   newWindow.textContent = `${window.screen.width} x ${window.screen.height}`;
 //   blockField.append(newWindow);
 //   console.log(newWindow);
+// })
+
+
+// const firebaseConfig = {
+//     apiKey: "AIzaSyDvacZY-cX80BTDlUVaeRzVpiAC5tJTcGU",
+//     authDomain: "dailydrive-9c942.firebaseapp.com",
+//     databaseURL: "https://dailydrive-9c942-default-rtdb.europe-west1.firebasedatabase.app",
+//     projectId: "dailydrive-9c942",
+//     storageBucket: "dailydrive-9c942.firebasestorage.app",
+//     messagingSenderId: "893889408051",
+//     appId: "1:893889408051:web:5b9998657fb15a1a7c8746"
+//   };
+
+
+
+// const authButt = document.getElementById("auth-button");
+
+// authButt.addEventListener('click', function() {
+//   const authName = document.getElementById("auth-name").value;
+//   const authPassword = document.getElementById("auth-pass").value;
+//   const authMail = document.getElementById("auth-email").value;
+
+//   createUserWithEmailAndPassword(authName, authPassword, authMail)
+//   .then((userCredential) => {
+//     const user = userCredential.user;
+
+//     alert('User Created');
+//   })
+//   .catch((error) => {
+//     const errorCode = error.code;
+//     const errorMessage = error.message;
+
+//     alert(errorMessage)
+//   })
+
+//   // alert(`${authName} ${authPassword} ${authMail}`)
 // })
